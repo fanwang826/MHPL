@@ -5,6 +5,8 @@
 # Table 3        A->D,W
 ~/anaconda3/envs/pytorch/bin/python MHPL_source.py --trte full --output ckps/source/ --da uda --gpu_id 0 --dset office --max_epoch 100 --s 0 --t 1
 ~/anaconda3/envs/pytorch/bin/python MHPL_target.py --beta 0.3 --ratio 0.05 --alpha 3.0 --KK 9 --da uda --dset office --gpu_id 0 --s 0 --t 1 --output_src ckps/source/ --output ckps/target/
+#AW --KK 7
+
 
 # Table 4       VisDA-C
 ~/anaconda3/envs/pytorch/bin/python MHPL_source.py --trte full --output ckps/source/ --da uda --gpu_id 0 --dset VISDA-C --net resnet101 --lr 1e-3 --max_epoch 10 --s 0 --t 1
