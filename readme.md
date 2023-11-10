@@ -1,4 +1,4 @@
-# implementation for **MHPL**
+# implementation for **MHPL (Minimum happy points)**
  
 
 ### Prerequisites:
